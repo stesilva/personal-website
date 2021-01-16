@@ -1,0 +1,141 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3{
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+p{
+  color: rgb(34, 29, 29);
+  height: 2;
+}
+
+a{
+  color:#ff847b;
+}
+
+a:hover{
+  color: #fecea8;
+}
+
+/* Heading */
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*Conteiner*/
+.conteiner-fluid{
+  padding: 7% 15%;
+}
+
+/*Sections*/
+.white-section{
+  background-color: #fff;
+}
+
+.colored-section{
+  background-color: #e84a5f ;
+  color: #fff;
+}
+
+/* Barra Navegação Section*/
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/*Introdução Section*/
+.intro-img{
+  width: 40%;
+  border-radius: 100%;
+  position: absolute;
+  right: 25%;
+}
+
+#intro .conteiner-fluid{
+  padding: 3% 15% 7%;
+}
+
+#intro{
+  text-align: left;
+}
+
+#intro p{
+  color: white;
+}
+
+/* Configuração para tablet ou telefone*/
+@media (max-width: 1028px){
+  #intro{
+      text-align: center;
+  }
+
+  .intro-img{
+      position: static;
+  }
+}
+
+/*Habilidades Section*/
+#habilidades{
+  position: relative;
+}
+
+.habilidade-title{
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.habilidade-box{
+  padding: 4.5%;
+}
+
+.icon{
+  color: #ff847b;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #e84a5f;
+}
+
+/*Cursos e Conquistas Section*/
+#cursosConquistas{
+  background-color: #e84a5f;
+}
+
+.cursosConquistas-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*Contato Section*/
+#contato{
+  padding:100px;
+}
+
+.contato-column{
+  padding: 3% 2%;
+}
+
+/*Footer Section*/
+.ft{
+  margin: 2rem 1rem;
+}
